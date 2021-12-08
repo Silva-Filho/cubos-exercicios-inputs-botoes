@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1F1C44;
+}
+
+.container {
+    margin: 215px auto;
+    width: 515px;
+    padding: 50px 90px;
+    display: flex;
+    flex-direction: column;
+    justify-content:  center;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    font-family: 'Neuton', serif;
+}
+
+.container h1{
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 35px;
+}
+/* Pode-se usar a class "sign-up". */
+.container h1 + a {
+    margin-bottom: 55px;
+    width: 335px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content:  center;
+    align-items: center;
+    background: #5B86E6;
+    border-radius: 5px;
+}
+
+.container h1 + a p {
+    margin-right: 10px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.container h1 + a img {
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.container h1 + a:hover {
+    cursor: url(assets/mouse.svg), pointer;
+}
+
+.container a:first-of-type + p {
+    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #949495;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.formulario label {
+    margin-bottom: 5px;
+    font-size: 20px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
+
+.formulario input {
+    margin-bottom: 25px;
+    width: 335px;
+    padding: 20px;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.formulario input:first-of-type {
+    margin-bottom: 20px;
+}
+
+.formulario input::placeholder {    
+    color: #949495;
+}
+
+.formulario input:placeholder-shown {
+    border: 1px solid #D9DCED;
+}
+
+.container a:nth-child(5) {
+    margin-bottom: 50px;
+    width: 335px;
+    padding: 20px 0;
+    background-color: #E65B7C;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+
+.container a:nth-child(5):hover {
+    cursor: url(assets/mouse.svg), pointer;
+}
+
+.container p:last-of-type {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container p:last-of-type a {
+    color: #5B86E6;
+}
