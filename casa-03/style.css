@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8EFEF;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    margin: 245px auto;
+    width: 610px;
+    padding: 65px 90px 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.15);
+    border-radius: 15px;
+}
+
+.container h1 {
+    margin-bottom: 15px;
+    align-self: flex-start;
+    font-family: 'Rokkitt', serif;
+    font-size: 36px;
+    line-height: 41px;
+    color: #161843;
+}
+
+.container p:nth-child(2) {
+    margin-bottom: 50px;
+    width: 345px;
+    align-self: flex-start;
+    font-size: 16px;
+    line-height: 23px;
+    color: #161843;
+}
+
+.container input {
+    margin-bottom: 15px;
+    width: 430px;
+    padding: 25px;
+    box-sizing: border-box;
+    border: 1px solid #26394F;
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #343945;
+}
+
+.container input::placeholder {
+    color: #717A91;
+}
+
+.container input:placeholder-shown {
+    border: 1px solid #CAD6E4;
+}
+
+.container-links {
+    margin-bottom: 55px;
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-links a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #0C6787;
+}
+
+.container-links button {
+    width: 155px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #046586;
+    border-radius: 5px;
+    border: none;
+}
+
+.container-links button:hover {
+    cursor: url(assets/mouse.svg), pointer;
+}
+
+.container-links button span {
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.reta {
+    width: 430px;
+    border: 1px solid #CAD6E4;
+}
+
+.container p:nth-child(6) {
+    margin-top: 35px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #838A9E;
+}
+
+.redes-sociais {
+    margin: 30px 0 60px;
+    width: 430px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rede-social {
+    width: 205px;
+    padding: 10px 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #CAD6E4;
+    border-radius: 5px;
+}
+
+.rede-social:hover {
+    cursor: url(assets/mouse.svg), pointer;
+    border: 1px solid #26394F;
+}
+
+.rede-social span {
+    margin-left: 10px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.container p:nth-child(8) {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.container p:nth-child(8) a {
+    text-decoration: underline;
+}
