@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang = "pt-br">
+    <head>
+        <link rel = "preconnect" href = "https://fonts.googleapis.com" />
+        <link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin />
+
+        <meta charset = "UTF-8" />        
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0" />
+
+        <title>Exercício 01 da aula 07 de Front-end.</title>
+
+        <link href = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel = "stylesheet" />
+        <link rel = "stylesheet" href = "style.css" />
+    </head>
+
+    <body>
+        <div class = "container">
+            <h1>Get unlimited access to everything</h1>
+
+            <div class= "compra">
+                <h2>Total billed $50</h2>
+
+                <p>Enter your credit card details to complete subscription</p>
+            </div>
+
+            <div class = "info-cartao">
+                <label for = "card-number">Card number</label>
+                <input 
+                    type = "number" 
+                    name = "card-number" 
+                    id = "card-number" 
+                    placeholder = "1234 1234 1234 1234" 
+                />
+
+                <div class = "info-cartao-seguranca">
+                    <div class = "seguranca-seccao">
+                        <label for = "expiration-date">Expiration date</label>
+                        <input 
+                            type = "text" 
+                            name = "expiration-date" 
+                            id = "expiration-date" 
+                            placeholder = "MM/YY" 
+                        />
+                    </div>
+                    
+                    <div class = "seguranca-seccao">
+                        <label for = "security-code">Security code</label>
+                        <input 
+                            type = "text" 
+                            name = "security-code" 
+                            id = "security-code" 
+                            placeholder = "123" 
+                            pattern = "\d*"
+                        />
+                        <!-- 
+                            d : refere-se a dígito, o qual constitui apenas números;
+                            * : é um qualificador que significa nenhum, um ou mais;
+                         -->
+                    </div>                    
+                </div>                
+            </div>
+
+            <p>
+                By subscribing you agree to our Use of Service. 
+                Your payment method will be charged with $50  and 
+                you’ll have access to all locked features until 20 Jan 2022.
+            </p>
+
+            <a href = "#">Pay Now</a>
+        </div>
+    </body>
+</html>
