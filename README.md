@@ -1,23 +1,15 @@
-![](https://i.imgur.com/xG74tOh.png)
-
 # Inputs e botões
 
-## Exercícios de classe 🏫
 1. Cobrança
-2. Compartilhar
-
-## Exercícios de casa 🏠
-3. Login
-4. Cadastro
-
+![exercicio](https://i.imgur.com/1bCbRfY.png)
 ---
-
-Preencha a checklist para fazer os exercícios:
-
--   [ ] Fazer o fork do repositório para sua conta
--   [ ] Executar `git clone` do seu fork no terminal para clonar o repositório, ou clonar de outra maneira
--   [ ] Após fazer e commitar todos os exercícios fazer o `git push` para seu fork
--   [ ] Copiar a url do seu fork e enviar na plataforma
-
+2. Compartilhar
+![exercicio](https://i.imgur.com/lyP5OqU.png)
+---
+3. Login
+![exercicio](https://i.imgur.com/Tdlh8a5.png)
+---
+4. Cadastro
+![exercicio](https://i.imgur.com/zyNLkkZ.png)
+---
 ###### tags: `módulo 1` `front-end` `HTML` `CSS`
-
